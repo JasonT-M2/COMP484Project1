@@ -1,0 +1,136 @@
+html,
+body {
+  background: #182044;
+  margin: 0;
+}
+
+details,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f8be18;
+}
+
+body {
+  font-family: FreeMono, monospace;
+  font-size: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2.5% 2.5% 0;
+  background: #535351;
+  line-height: 1.8;
+}
+h1 {
+  font: 2.2em FreeMono, monospace;
+  margin-bottom: 0.4em;
+  color: #182044;
+}
+h2 {
+  font: 4em Stencil Std, fantasy;
+  margin-bottom: 0.2em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1.2em;
+  color: black;
+}
+p {
+  margin-bottom: 1em;
+}
+a {
+  color: #91a672;
+}
+a:hover {
+  color: #abd94a;
+}
+pre {
+  font-size: 1.4em;
+  color: white;
+  padding: 0.5em 1em;
+  border-left: 1em solid #a68048;
+  background: #666;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  width: 90%;
+}
+pre.wrong {
+  border-left-color: red;
+}
+pre.correct {
+  border-left-color: green;
+}
+caption {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+  text-align: left;
+}
+td,
+th {
+  padding: 10px;
+}
+.center {
+  text-align: center;
+}
+header h2 {
+  padding-bottom: 0.2em;
+  border-bottom: 2px solid black;
+}
+aside {
+  padding: 1em;
+  background: rgb(83, 104, 138);
+  color: white;
+  margin-bottom: 1em;
+}
+footer {
+  border-top: 1px solid gray;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 4em;
+  margin-top: 1em;
+}
+blockquote {
+  font-style: italic;
+}
+.flowRight {
+  float: right;
+  margin-left: 20px;
+}
+.flowLeft {
+  float: left;
+  margin-right: 20px;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+}
+nav li a {
+  font-size: 1.5em;
+}
+summary {
+  font-size: 2em;
+}

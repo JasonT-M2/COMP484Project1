@@ -1,2 +1,1 @@
-# comp484project1
-project 1
+# COMP484Project1
